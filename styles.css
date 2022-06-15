@@ -170,8 +170,14 @@ body {
 
 @media (max-width: 790px) {
     .flex-container {
-        margin: 3% 7%;
-        flex-direction: column;
+        margin: 5% 7%;
+        flex-direction: column-reverse;
+    }
+
+    .flex-container .flex-item {
+        flex: 100%;
+        padding: 1rem;
+        text-align: center;
     }
 
     #middle {
@@ -265,7 +271,7 @@ body {
 
     #footer {
         flex-direction: column;
-        padding-left: 4rem;
+        padding-left: 2rem;
     }
 
     .foot-item {
